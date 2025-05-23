@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   fetch("data/libros.json")
+
     .then(response => response.json())
     .then(data => mostrarLibros(data));
 
@@ -28,6 +29,7 @@ function mostrarLibros(libros) {
     div.classList.add("libro");
     div.innerHTML = `
       <img src="img/${libro.imagen}" alt="${libro.titulo}" width="120">
+
       <h3>${libro.titulo}</h3>
       <p><strong>Autor:</strong> ${libro.autor}</p>
       <p><strong>Categoría:</strong> ${libro.categoria}</p>
