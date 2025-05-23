@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Iniciar Sesión</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <main class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form id="form-login">
+      <input type="text" id="usuario" placeholder="Usuario" required />
+      <input type="password" id="clave" placeholder="Contraseña" required />
+      <button type="submit">Entrar</button>
+    </form>
+
+    <h3>¿Nuevo usuario?</h3>
+    <form id="form-registro">
+      <input type="text" id="nuevo-usuario" placeholder="Nuevo Usuario" required />
+      <input type="password" id="nueva-clave" placeholder="Nueva Contraseña" required />
+      <button type="submit">Registrar</button>
+    </form>
+
+    <p id="mensaje-login"></p>
+  </main>
+  <script src="js/login.js"></script>
+</body>
+</html>

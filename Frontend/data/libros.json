@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "categoria": "Distopía",
+    "precio": 28000,
+    "stock": 10,
+    "imagen": "1984.jpg",
+    "descripcion": "Una sociedad vigilada donde el Gran Hermano lo controla todo."
+  },
+  {
+    "id": 2,
+    "titulo": "El Alquimista",
+    "autor": "Paulo Coelho",
+    "categoria": "Autoayuda",
+    "precio": 25000,
+    "stock": 8,
+    "imagen": "alquimista.jpg",
+    "descripcion": "La historia de un joven pastor que busca su leyenda personal."
+  },
+  {
+    "id": 3,
+    "titulo": "El Señor de los Anillos",
+    "autor": "J.R.R. Tolkien",
+    "categoria": "Fantasía",
+    "precio": 40000,
+    "stock": 5,
+    "imagen": "anillos.jpg",
+    "descripcion": "Una épica aventura para destruir el Anillo Único."
+  },
+  {
+    "id": 4,
+    "titulo": "Cien Años de Soledad",
+    "autor": "Gabriel García Márquez",
+    "categoria": "Realismo mágico",
+    "precio": 30000,
+    "stock": 7,
+    "imagen": "cien_anos.jpg",
+    "descripcion": "La historia de la familia Buendía en Macondo."
+  },
+  {
+    "id": 5,
+    "titulo": "Código Da Vinci",
+    "autor": "Dan Brown",
+    "categoria": "Suspenso",
+    "precio": 27000,
+    "stock": 6,
+    "imagen": "codigo.jpg",
+    "descripcion": "Un thriller que combina arte, religión y misterios."
+  },
+  {
+    "id": 6,
+    "titulo": "Crónica de una Muerte Anunciada",
+    "autor": "Gabriel García Márquez",
+    "categoria": "Drama",
+    "precio": 22000,
+    "stock": 10,
+    "imagen": "cronica.jpg",
+    "descripcion": "Una historia trágica narrada desde distintos puntos de vista."
+  },
+  {
+    "id": 7,
+    "titulo": "El Retrato de Dorian Gray",
+    "autor": "Oscar Wilde",
+    "categoria": "Clásico",
+    "precio": 19000,
+    "stock": 4,
+    "imagen": "dorian.jpg",
+    "descripcion": "La búsqueda eterna de la juventud y belleza."
+  },
+  {
+    "id": 8,
+    "titulo": "Granja de Animales",
+    "autor": "George Orwell",
+    "categoria": "Fábula política",
+    "precio": 18000,
+    "stock": 12,
+    "imagen": "granja.jpg",
+    "descripcion": "Una alegoría de la Revolución Rusa."
+  },
+  {
+    "id": 9,
+    "titulo": "Harry Potter",
+    "autor": "J.K. Rowling",
+    "categoria": "Fantasía",
+    "precio": 35000,
+    "stock": 10,
+    "imagen": "harry1.jpg",
+    "descripcion": "El joven mago que asiste a Hogwarts y enfrenta a Voldemort."
+  },
+  {
+    "id": 10,
+    "titulo": "El Hobbit",
+    "autor": "J.R.R. Tolkien",
+    "categoria": "Fantasía",
+    "precio": 28000,
+    "stock": 6,
+    "imagen": "hobbit.jpg",
+    "descripcion": "La aventura de Bilbo Bolsón con los enanos."
+  },
+  {
+    "id": 11,
+    "titulo": "It",
+    "autor": "Stephen King",
+    "categoria": "Terror",
+    "precio": 32000,
+    "stock": 5,
+    "imagen": "it.jpg",
+    "descripcion": "Un ser maligno acecha a un grupo de niños en Derry."
+  },
+  {
+    "id": 12,
+    "titulo": "Los Juegos del Hambre",
+    "autor": "Suzanne Collins",
+    "categoria": "Juvenil",
+    "precio": 26000,
+    "stock": 7,
+    "imagen": "juegos_hambre.jpg",
+    "descripcion": "Una joven lucha por sobrevivir en una competencia mortal."
+  },
+  {
+    "id": 13,
+    "titulo": "Orgullo y Prejuicio",
+    "autor": "Jane Austen",
+    "categoria": "Romance",
+    "precio": 21000,
+    "stock": 6,
+    "imagen": "orgullo.jpg",
+    "descripcion": "La historia de Elizabeth Bennet y el señor Darcy."
+  },
+  {
+    "id": 14,
+    "titulo": "El Principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "categoria": "Fábula",
+    "precio": 18000,
+    "stock": 15,
+    "imagen": "principito.jpg",
+    "descripcion": "Una reflexión profunda sobre la vida y la amistad."
+  },
+  {
+    "id": 15,
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "categoria": "Clásico",
+    "precio": 30000,
+    "stock": 4,
+    "imagen": "quijote.jpg",
+    "descripcion": "Las aventuras de un caballero andante y su escudero Sancho Panza."
+  },
+  {
+    "id": 16,
+    "titulo": "Rayuela",
+    "autor": "Julio Cortázar",
+    "categoria": "Experimental",
+    "precio": 29000,
+    "stock": 3,
+    "imagen": "rayuela.jpg",
+    "descripcion": "Una novela que se puede leer de múltiples formas."
+  },
+  {
+    "id": 17,
+    "titulo": "El Ruiseñor",
+    "autor": "Kristin Hannah",
+    "categoria": "Histórica",
+    "precio": 27000,
+    "stock": 5,
+    "imagen": "ruisenor.jpg",
+    "descripcion": "Dos hermanas luchan por sobrevivir en la Francia ocupada."
+  },
+  {
+    "id": 18,
+    "titulo": "Sapiens",
+    "autor": "Yuval Noah Harari",
+    "categoria": "Ensayo",
+    "precio": 35000,
+    "stock": 6,
+    "imagen": "sapiens.jpg",
+    "descripcion": "Una breve historia de la humanidad."
+  },
+  {
+    "id": 19,
+    "titulo": "Sombra del Viento",
+    "autor": "Carlos Ruiz Zafón",
+    "categoria": "Misterio",
+    "precio": 29000,
+    "stock": 5,
+    "imagen": "sombra.jpg",
+    "descripcion": "Un libro perdido cambia la vida de un niño en Barcelona."
+  },
+  {
+    "id": 20,
+    "titulo": "Viento en los Sauces",
+    "autor": "Kenneth Grahame",
+    "categoria": "Infantil",
+    "precio": 23000,
+    "stock": 7,
+    "imagen": "viento.jpg",
+    "descripcion": "Las aventuras del señor Sapo, Topo y Rata."
+  }
+]
