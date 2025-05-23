@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("/data/libros.json")
-    .then(response => response.json())
-    .then(data => mostrarLibros(data));
+  fetch("data/libros.json")
+  .then(response => response.json())
+  .then(data => mostrarLibros(data));
+
 
   const inputBusqueda = document.getElementById("busqueda");
   inputBusqueda.addEventListener("input", () => {
@@ -56,4 +57,53 @@ if (usuarioActivo) {
     localStorage.removeItem("usuarioActivo");
     window.location.href = "login.html";
   });
+  
 }
+document.addEventListener("DOMContentLoaded", () => {
+  const libros = [
+    {
+      "id": 1,
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "categoria": "Distopía",
+      "precio": 28000,
+      "stock": 10,
+      "imagen": "1984.jpg",
+      "descripcion": "Una sociedad vigilada donde el Gran Hermano lo controla todo."
+    },
+    {
+      "id": 2,
+      "titulo": "El Alquimista",
+      "autor": "Paulo Coelho",
+      "categoria": "Autoayuda",
+      "precio": 25000,
+      "stock": 8,
+      "imagen": "alquimista.jpg",
+      "descripcion": "La historia de un joven pastor que busca su leyenda personal."
+    },
+    {
+      "id": 3,
+      "titulo": "El Señor de los Anillos",
+      "autor": "J.R.R. Tolkien",
+      "categoria": "Fantasía",
+      "precio": 40000,
+      "stock": 5,
+      "imagen": "anillos.jpg",
+      "descripcion": "Una épica aventura para destruir el Anillo Único."
+    },
+    // 🔽 Continúa pegando los demás libros desde tu `libros.json` aquí...
+  ];
+
+  mostrarLibros(libros);
+
+  const inputBusqueda = document.getElementById("busqueda");
+  inputBusqueda.addEventListener("input", () => {
+    const texto = inputBusqueda.value.toLowerCase();
+    const filtrados = libros.filter(libro =>
+      libro.titulo.toLowerCase().includes(texto) ||
+      libro.autor.toLowerCase().includes(texto) ||
+      libro.categoria.toLowerCase().includes(texto)
+    );
+    mostrarLibros(filtrados);
+  });
+});
